@@ -29,8 +29,8 @@ line_bot_api = LineBotApi(LINE_CHANNEL_ACCESS_TOKEN)
 line_handler = WebhookHandler(LINE_CHANNEL_SECRET)
 # Whisper 和 LLM 模型設置
 stt_model = whisper.load_model("tiny")
-tokenizer = AutoTokenizer.from_pretrained("Qwen/Qwen2-0.5B")
-llm_model = AutoModelForCausalLM.from_pretrained("Qwen/Qwen2-0.5B").to(torch.device("cuda" if torch.cuda.is_available() else "cpu"))
+tokenizer = AutoTokenizer.from_pretrained("niwz/Mini-Chinese-Phi3")
+llm_model = AutoModelForCausalLM.from_pretrained("niwz/Mini-Chinese-Phi3").to(torch.device("cuda" if torch.cuda.is_available() else "cpu"))
 converter = opencc.OpenCC('s2t')
 # 模型功能
 def get_text_from_audio(audio_path):
