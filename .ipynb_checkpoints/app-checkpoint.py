@@ -20,7 +20,7 @@ logging.basicConfig(level=logging.INFO)
 # LINE bot 設置
 LINE_CHANNEL_ACCESS_TOKEN = 'gAdfjAoFL7SBmDXMjS1Zlglitvbg5h6jcC2o6O7Gzx8Zwu7a221OojUXsldgr71ZSiRjtLcblaIIwagGUduAzIwg/r2BniGjCnMyR/gUoiUrBOC9x3nsCdg5lUvpavu38eeCVBmdKI9HOiijKu2b1wdB04t89/1O/w1cDnyilFU='
 LINE_CHANNEL_SECRET = '36bce7862523d7bbdc296db4b0b1c82e'
-SERVER_URL = 'https://linebotapi-ejcw.onrender.com/webhook'
+SERVER_URL = 'https://linebot2-tqw6.onrender.com/webhook'
 STT_API_URL = 'http://180.218.16.187:30303/recognition_long_audio'
 TTS_API_URL = 'http://180.218.16.187:30303/getTTSfromText'
 LLM_API_URL = 'http://61.66.218.215:30315/llm_chat'
